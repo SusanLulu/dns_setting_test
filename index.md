@@ -2,36 +2,13 @@
 
 You can use the [editor on GitHub](https://github.com/SusanLulu/dns_setting_test/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+youtube:Setting Freenom DNS SERVICE - github pages
+https://www.youtube.com/watch?v=UYV6hpBevzc
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+how to set freenom dns setting:
+https://help.github.com/articles/troubleshooting-custom-domains/
+1.if you configured A records through your DNS provider, then your A records should point your custom domain to the following IP addresses:
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SusanLulu/dns_setting_test/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+    192.30.252.153
+2.Choose Manage Freenom DNS. Add new record where name is www , type is CNAME , TTL is 14440 , target is your website name www.example.com. Click Save changes.
